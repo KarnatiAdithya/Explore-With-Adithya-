@@ -1,1 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore With Adithya — electronics, robotics, Arduino projects, experiments and technology learning.">
+<title>Explore With Adithya | EWA</title>
+<style>
+:root{--bg:#0a1020;--panel:#121c31;--text:#edf3ff;--muted:#b1bfd7;--accent:#70b7ff;--line:#2a3955}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Arial,sans-serif;line-height:1.65}
+a{color:var(--accent);text-decoration:none}
+header{position:sticky;top:0;z-index:10;background:#0a1020ed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.brand{font-weight:850;font-size:1.05rem;color:white}
+.links{display:flex;gap:16px;flex-wrap:wrap;font-size:.9rem}
+.links a{color:var(--text)}
+main{max-width:1100px;margin:auto;padding:24px 20px}
+.hero{padding:65px 0 48px;display:grid;grid-template-columns:1.4fr 1fr;gap:30px;align-items:center}
+.tag{color:var(--accent);font-weight:750;letter-spacing:2px;font-size:.78rem}
+h1{font-size:clamp(2.3rem,7vw,4.5rem);line-height:1.08;margin:14px 0}
+h2{font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.2}
+h3{margin-top:0}
+p{color:var(--muted)}
+.hero-card,.card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:24px}
+.hero-card{min-height:230px;display:flex;flex-direction:column;justify-content:center;background:radial-gradient(circle at top right,#254c79,transparent 65%),var(--panel)}
+.big{font-size:3.5rem}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{display:inline-block;padding:11px 17px;border-radius:10px;background:#2465ac;color:white;font-weight:700}
+.btn.secondary{background:transparent;border:1px solid var(--line)}
+section{padding:35px 0}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card h3{margin-bottom:8px}
+.card p{margin-bottom:0}
+.emoji{font-size:1.7rem}
+.placeholder{margin-top:14px;padding:14px;border:1px dashed #506482;border-radius:12px;color:var(--muted);font-size:.9rem}
+footer{border-top:1px solid var(--line);padding:26px 20px;text-align:center;color:var(--muted)}
+@media(max-width:720px){.hero{grid-template-columns:1fr;padding-top:40px}.grid{grid-template-columns:1fr}.links{gap:11px;font-size:.82rem}nav{align-items:flex-start}.hero-card{min-height:170px}}
+</style>
+</head>
+<body>
+<header><nav>
+<a class="brand" href="#home">EXPLORE WITH ADITHYA</a>
+<div class="links">
+<a href="#about">About</a><a href="#projects">Projects</a><a href="#learning">Learning</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+</div>
+</nav></header>
+<main>
+<section class="hero" id="home">
+<div>
+<div class="tag">DISCOVER · LEARN · CREATE</div>
+<h1>Explore Ideas.<br>Build Your Future.</h1>
+<p>Welcome to Explore With Adithya — a place to explore electronics, robotics, technology, experiments and creative ideas.</p>
+<div class="actions"><a class="btn" href="#projects">Explore Projects ↓</a><a class="btn secondary" href="#about">About Me</a></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Explore With Adithya — explore robotics, electronics, science, experiments, awards and projects.">
+<title>Explore With Adithya | EWA</title>
 
+<style>
+:root {
+  --bg: #0a1020;
+  --panel: #121c31;
+  --text: #edf3ff;
+  --muted: #b7c3d9;
+  --accent: #69a7ff;
+  --line: #2c3a55;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 85px; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #0a1020ee;
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(12px);
+}
+nav {
+  max-width: 1100px;
+  margin: auto;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.brand {
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: var(--text);
+}
+.links { display: flex; gap: 15px; flex-wrap: wrap; }
+.links a { color: var(--text); font-size: .95rem; }
+main { max-width: 1100px; margin: auto; padding: 20px; }
+section { padding: 42px 0; border-bottom: 1px solid var(--line); }
+.tag {
+  color: var(--accent);
+  font-size: .85rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h1 { font-size: clamp(2.3rem, 7vw, 4.5rem); line-height: 1.1; margin: 16px 0; }
+h2 { font-size: clamp(1.7rem, 4vw, 2.4rem); }
+h3 { margin-top: 0; }
+p, li { color: var(--muted); }
+.hero {
+  min-height: 420px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  align-items: center;
+  gap: 28px;
+}
+.panel, .card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 22px;
+}
+.hero-art {
+  min-height: 240px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 4rem;
+  background: linear-gradient(145deg, #172c4c, #11192c);
+}
+.button {
+  display: inline-block;
+  padding: 11px 17px;
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  margin: 6px 8px 6px 0;
+  font-weight: bold;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.video-list li { margin-bottom: 14px; }
+.note { font-size: .9rem; }
+footer {
+  max-width: 1100px;
+  margin: auto;
+  padding: 28px 20px;
+  text-align: center;
+  color: var(--muted);
+}
+@media (max-width: 720px) {
+  .hero, .grid { grid-template-columns: 1fr; }
+  .hero { padding: 35px 0; }
+  nav { align-items: flex-start; }
+  .links { gap: 10px 14px; }
+}
+</style>
+</head>
+
+<body>
+<header>
+  <nav>
+    <a class="brand" href="#home">Explore With Adithya</a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#journey">My Journey</a>
+      <a href="#awards">Awards</a>
+      <a href="#videos">Videos</a>
+      <a href="#projects">Projects</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div>
+      <div class="tag">Discover · Learn · Create</div>
+      <h1>Explore Ideas.<br>Build Your Future.</h1>
+      <p>Welcome to Explore With Adithya — a place to explore robotics, electronics, science, experiments and creative ideas.</p>
+      <p>Learn to explore, discover problems around you and turn your ideas into practical projects.</p>
+      <a class="button" href="#about">About Me</a>
+      <a class="button" href="#projects">Explore Projects</a>
+    </div>
+    <div class="panel hero-art" aria-label="Robotics and science">
+      🤖 ⚡ 🔬
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="tag">Introduction</div>
+    <h2>Introduce of myself</h2>
+    <h3>What's my future aim?</h3>
+    <p>I started this online platform to express my skills and development in robotics and science and share them with society.</p>
+    <p>I have already shown my talent and skills at science exhibitions and talent-test competitions through in-person events. Now, I want to share things that you can learn to build or create with your own hands, so they may be helpful to others.</p>
+    <p>My ambition is to become an inventor and contribute new ideas that can benefit society.</p>
+    <h3>Call me Junior Engineer!</h3>
+  </section>
+
+  <section id="journey">
+    <div class="tag">My Approach</div>
+    <h2>Let's start to explore my world</h2>
+    <p>This is the beginning of my journey.</p>
+    <div class="grid">
+      <article class="card">
+        <h3>01 · Discover a problem</h3>
+        <p>First, look for problems around you. Research them using online platforms and available resources. Analyse what the problem is and why it happens.</p>
+      </article>
+      <article class="card">
+        <h3>02 · Think and create</h3>
+        <p>After understanding the problem, think of possible ideas. Try making a prototype and communicate with people around you. Ask friends, family and neighbours for help.</p>
+      </article>
+      <article class="card">
+        <h3>03 · Test and improve</h3>
+        <p>A prototype helps you understand the problem and identify its merits and demerits. Use the available tools to find a practical solution and improve your design.</p>
+      </article>
+      <article class="card">
+        <h3>04 · Build and share</h3>
+        <p>When you have developed a suitable solution, implement it as a real-life project. Present it to others, invite questions about its uses, identify problems and debug them. Communicating with society helps you learn and improve.</p>
+      </article>
+    </div>
+    <p>Thank you for exploring my journey!</p>
+  </section>
+
+  <section id="awards">
+    <div class="tag">My Memories</div>
+    <h2>My Awards &amp; Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Innovation Express Exhibition</h3>
+        <p>One of my most memorable exhibition experiences was seeing Mallesham sir as the chief guest. I stayed at the exhibition for two days, making it my first exhibition where I stayed for that duration.</p>
+        <p>Mallesham sir attended Innovation Express as chief guest on March 14 and 15, 2024, at Miyapur.</p>
+      </article>
+      <article class="card">
+        <h3>Master Blaster Award</h3>
+        <p>This award is a memorable reminder of teamwork and working together with others.</p>
+      </article>
+      <article class="card">
+        <h3>Smart Sewing Machine</h3>
+        <p>I participated in Innovation Express with my friend. The name of our project was “SMART SEWING MACHINE”.</p>
+      </article>
+      <article class="card">
+        <h3>Team Achievement</h3>
+        <p>This memory represents my team members working together and performing as a team at the 2024 Soham Academy of Human Excellence event.</p>
+      </article>
+      <article class="card">
+        <h3>My First Robotic Car</h3>
+        <p>This was the first robotic car I designed when I was in 9th class. It was an important early experience in my interest in robotics.</p>
+      </article>
+    </div>
+    <p class="note">Your original photos are not embedded yet. Upload your own exhibition, award, team and robotic-car photos to the repository to display them here.</p>
+  </section>
+
+  <section id="videos">
+    <div class="tag">Learn by Doing</div>
+    <h2>My Sample Videos</h2>
+    <p>Here are some sample videos I created while practising basic-level activities on Wokwi and Arduino.</p>
+    <ol class="video-list">
+      <li><a href="https://drive.google.com/file/d/1qgujy46AC8MNzzpLbpHuDIsakNE-fsxi/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Watch Video 1</a></li>
+      <li><a href="https://drive.google.com/file/d/1QQx3kBEcJEl72cOww-hXIrCfddeC-N-X/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Watch Video 2</a></li>
+      <li><a href="https://drive.google.com/file/d/1Xg-u5kyvkWkYwqiQl1Ng1ETr6Ttezh_t/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Watch Video 3</a></li>
+      <li><a href="https://drive.google.com/file/d/15jWnR5bvm_7Na1xVnxy3Eau0m_zPuSg0/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Watch Video 4</a></li>
+    </ol>
+    <p class="note">Make sure the Google Drive sharing permissions allow visitors to view each video.</p>
+  </section>
+
+  <section id="projects">
+    <div class="tag">Ideas into Reality</div>
+    <h2>Explore My Project</h2>
+    <article class="card">
+      <h3>Smart RIFD Ration Card</h3>
+      <p>Explore my project repository and its available project files, code and documentation.</p>
+      <a class="button" href="https://github.com/KarnatiAdithya/Smart-RIFD-ration-card-" target="_blank" rel="noopener noreferrer">View Project on GitHub</a>
+    </article>
+  </section>
+
+  <section id="contact">
+    <div class="tag">Stay Curious</div>
+    <h2>Thank You for Visiting!</h2>
+    <p>Thank you for visiting Explore With Adithya. Keep learning, keep experimenting and keep exploring new ideas.</p>
+    <p>Let's discover problems, create solutions and use our knowledge to help others.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Explore With Adithya (EWA)</p>
+  <p>Learn · Explore · Create</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
+                                                                                   
